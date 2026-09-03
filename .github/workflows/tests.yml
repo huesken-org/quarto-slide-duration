@@ -1,0 +1,24 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pandoc/actions/setup@v1
+        with:
+          version: 3.9.0.2
+
+      - name: Versions
+        run: |
+          pandoc --version | head -1
+
+      - name: Run tests
+        run: tests/run.sh
