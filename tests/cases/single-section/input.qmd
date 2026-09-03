@@ -1,0 +1,13 @@
+---
+title: One section
+---
+
+## Slices and Arrays {duration="20min"}
+
+Four slides share 20 minutes, so 5 minutes per slide.
+
+## Second slide
+
+## Third slide
+
+## Fourth slide

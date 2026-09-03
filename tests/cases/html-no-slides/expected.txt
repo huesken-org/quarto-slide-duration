@@ -1,0 +1,56 @@
+--- exit 0
+--- stdout
+[ Header 2 ( "section" , [] , [] ) [ Str "Section" ]
+, Para
+    [ Str "Same"
+    , Space
+    , Str "on"
+    , Space
+    , Str "the"
+    , Space
+    , Str "website:"
+    , Space
+    , Str "no"
+    , Space
+    , Str "schedule,"
+    , Space
+    , Str "no"
+    , Space
+    , Str "notes,"
+    , Space
+    , Str "and"
+    , Space
+    , Code ( "" , [] , [] ) "duration"
+    , Space
+    , Str "gone"
+    , Space
+    , Str "from"
+    , Space
+    , Str "the"
+    , SoftBreak
+    , Str "heading"
+    , Space
+    , Str "\8212"
+    , Space
+    , Str "the"
+    , Space
+    , Str "note"
+    , Space
+    , Str "would"
+    , Space
+    , Str "be"
+    , Space
+    , Str "dropped"
+    , Space
+    , Str "by"
+    , Space
+    , Str "the"
+    , Space
+    , Code ( "" , [] , [] ) "notes"
+    , Space
+    , Str "filter"
+    , Space
+    , Str "anyway."
+    ]
+]
+--- stderr

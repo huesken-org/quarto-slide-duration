@@ -1,0 +1,13 @@
+---
+title: No slides in a document
+---
+
+# Chapter
+
+## Section {duration="10min"}
+
+### Slide pushed down by a level {duration="5min"}
+
+A handout nests its chapters, so what is a slide in the deck sits one or more
+levels deeper here. That is ordinary structure, not a misplaced `duration`:
+the filter takes the attribute off and adds no notes.

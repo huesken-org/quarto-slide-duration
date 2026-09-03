@@ -1,0 +1,7 @@
+---
+title: Unreadable duration
+---
+
+## Sometime soon {duration="eventually"}
+
+## Second slide

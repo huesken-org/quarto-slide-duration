@@ -1,0 +1,9 @@
+---
+title: Other attributes
+---
+
+## With attributes {#slide-one .smaller duration="10min" background-color="black"}
+
+Only `duration` disappears; id, classes and other attributes stay.
+
+## Without attributes

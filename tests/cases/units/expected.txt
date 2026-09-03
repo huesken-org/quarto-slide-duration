@@ -1,0 +1,89 @@
+--- exit 0
+--- stdout
+[ Header
+    2
+    ( "no-unit-means-minutes" , [] , [] )
+    [ Str "No"
+    , Space
+    , Str "unit"
+    , Space
+    , Str "means"
+    , Space
+    , Str "minutes"
+    ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 1:30:00/1:30:00 \183 8:12:15/8:12:15" ]
+    ]
+, Header 2 ( "minutes" , [] , [] ) [ Str "Minutes" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:20:00/0:20:00 \183 6:42:15/8:12:15" ]
+    ]
+, Header
+    2
+    ( "minutes-short" , [] , [] )
+    [ Str "Minutes," , Space , Str "short" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:20:00/0:20:00 \183 6:22:15/8:12:15" ]
+    ]
+, Header
+    2
+    ( "hours-and-minutes" , [] , [] )
+    [ Str "Hours" , Space , Str "and" , Space , Str "minutes" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 1:30:00/1:30:00 \183 6:02:15/8:12:15" ]
+    ]
+, Header 2 ( "hours" , [] , [] ) [ Str "Hours" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 2:00:00/2:00:00 \183 4:32:15/8:12:15" ]
+    ]
+, Header
+    2
+    ( "hours-long" , [] , [] )
+    [ Str "Hours," , Space , Str "long" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 1:00:00/1:00:00 \183 2:32:15/8:12:15" ]
+    ]
+, Header 2 ( "seconds" , [] , [] ) [ Str "Seconds" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:00:45/0:00:45 \183 1:32:15/8:12:15" ]
+    ]
+, Header
+    2
+    ( "seconds-long" , [] , [] )
+    [ Str "Seconds," , Space , Str "long" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:01:30/0:01:30 \183 1:31:30/8:12:15" ]
+    ]
+, Header
+    2
+    ( "whitespace-and-capitals" , [] , [] )
+    [ Str "Whitespace"
+    , Space
+    , Str "and"
+    , Space
+    , Str "capitals"
+    ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 1:30:00/1:30:00 \183 1:30:00/8:12:15" ]
+    ]
+]
+--- stderr
+slide-duration: 9 sections, 8:12:15 planned
+   1.  1:30:00    1 slide   No unit means minutes
+   2.  0:20:00    1 slide   Minutes
+   3.  0:20:00    1 slide   Minutes, short
+   4.  1:30:00    1 slide   Hours and minutes
+   5.  2:00:00    1 slide   Hours
+   6.  1:00:00    1 slide   Hours, long
+   7.  0:00:45    1 slide   Seconds
+   8.  0:01:30    1 slide   Seconds, long
+   9.  1:30:00    1 slide   Whitespace and capitals

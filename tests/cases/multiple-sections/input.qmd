@@ -1,0 +1,13 @@
+---
+title: Two sections
+---
+
+## Basics {duration="30min"}
+
+## Basics, part 2
+
+## Advanced {duration="1h"}
+
+## Advanced, part 2
+
+## Advanced, part 3

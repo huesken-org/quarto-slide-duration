@@ -1,0 +1,7 @@
+---
+title: Zero duration
+---
+
+## Zero minutes {duration="0min"}
+
+## Second slide

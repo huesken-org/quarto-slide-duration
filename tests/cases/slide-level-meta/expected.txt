@@ -1,0 +1,52 @@
+--- exit 0
+--- stdout
+[ Header 1 ( "chapter" , [] , [] ) [ Str "Chapter" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:10:00/0:10:00 \183 0:20:00/0:20:00" ]
+    ]
+, Header
+    2
+    ( "not-a-slide-here" , [] , [] )
+    [ Str "Not"
+    , Space
+    , Str "a"
+    , Space
+    , Str "slide"
+    , Space
+    , Str "here"
+    ]
+, Para
+    [ Str "With"
+    , Space
+    , Code ( "" , [] , [] ) "slide-level: 1"
+    , Space
+    , Str "only"
+    , Space
+    , Str "the"
+    , Space
+    , Str "level"
+    , Space
+    , Str "1"
+    , Space
+    , Str "headings"
+    , Space
+    , Str "break"
+    , Space
+    , Str "a"
+    , Space
+    , Str "slide."
+    ]
+, Header
+    1
+    ( "next-chapter" , [] , [] )
+    [ Str "Next" , Space , Str "chapter" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:10:00/0:10:00 \183 0:10:00/0:20:00" ]
+    ]
+]
+--- stderr
+slide-duration: 2 sections, 0:20:00 planned
+   1.  0:10:00    1 slide   Chapter
+   2.  0:10:00    1 slide   Next chapter

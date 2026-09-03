@@ -1,0 +1,13 @@
+--- exit 1
+--- stdout
+--- stderr
+
+=== slide-duration: heading does not start a slide ===
+  File        : TESTS/cases/deep-duration/input.qmd
+  Heading     : Not a slide
+  level       : 3
+  slide-level : 2
+
+  A section starts at the top of a slide, so `duration` belongs on a heading
+  of level 2 or shallower. Deeper ones render inside the slide they sit in.
+

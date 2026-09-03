@@ -1,0 +1,94 @@
+--- exit 0
+--- stdout
+[ Header
+    2
+    ( "sixty-seconds-over-seven-slides" , [] , [] )
+    [ Str "Sixty"
+    , Space
+    , Str "seconds"
+    , Space
+    , Str "over"
+    , Space
+    , Str "seven"
+    , Space
+    , Str "slides"
+    ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:01:00/0:01:00 \183 0:01:00/0:01:00" ]
+    ]
+, Para
+    [ Str "60/7"
+    , Space
+    , Str "is"
+    , Space
+    , Str "8.571s"
+    , Space
+    , Str "per"
+    , Space
+    , Str "slide,"
+    , Space
+    , Str "so"
+    , Space
+    , Str "the"
+    , Space
+    , Str "remaining"
+    , Space
+    , Str "time"
+    , Space
+    , Str "carries"
+    , Space
+    , Str "a"
+    , Space
+    , Str "fraction"
+    , Space
+    , Str "and"
+    , Space
+    , Str "gets"
+    , SoftBreak
+    , Str "snapped"
+    , Space
+    , Str "to"
+    , Space
+    , Str "the"
+    , Space
+    , Str "nearest"
+    , Space
+    , Str "whole"
+    , Space
+    , Str "second."
+    ]
+, Header 2 ( "two" , [] , [] ) [ Str "Two" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:00:51/0:01:00 \183 0:00:51/0:01:00" ]
+    ]
+, Header 2 ( "three" , [] , [] ) [ Str "Three" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:00:43/0:01:00 \183 0:00:43/0:01:00" ]
+    ]
+, Header 2 ( "four" , [] , [] ) [ Str "Four" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:00:34/0:01:00 \183 0:00:34/0:01:00" ]
+    ]
+, Header 2 ( "five" , [] , [] ) [ Str "Five" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:00:26/0:01:00 \183 0:00:26/0:01:00" ]
+    ]
+, Header 2 ( "six" , [] , [] ) [ Str "Six" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:00:17/0:01:00 \183 0:00:17/0:01:00" ]
+    ]
+, Header 2 ( "seven" , [] , [] ) [ Str "Seven" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:00:09/0:01:00 \183 0:00:09/0:01:00" ]
+    ]
+]
+--- stderr
+slide-duration: 1 section, 0:01:00 planned
+   1.  0:01:00    7 slides  Sixty seconds over seven slides

@@ -1,0 +1,16 @@
+---
+title: Nested headings
+---
+
+# Chapter {duration="10min"}
+
+## Subsection
+
+### Deeper still
+
+Only headings that break a slide count — `slide-level` (2 by default) and
+shallower. This one renders inside the slide above it.
+
+# Next chapter {duration="10min"}
+
+## Subsection

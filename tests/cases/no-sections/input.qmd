@@ -1,0 +1,13 @@
+---
+title: No schedule
+---
+
+# First slide
+
+No `duration` anywhere — the filter leaves the document alone.
+
+## Second slide
+
+::: notes
+A handwritten note.
+:::

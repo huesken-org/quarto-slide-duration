@@ -1,0 +1,99 @@
+--- exit 0
+--- stdout
+[ Header 1 ( "chapter" , [] , [] ) [ Str "Chapter" ]
+, Header 2 ( "section" , [] , [] ) [ Str "Section" ]
+, Header
+    3
+    ( "slide-pushed-down-by-a-level" , [] , [] )
+    [ Str "Slide"
+    , Space
+    , Str "pushed"
+    , Space
+    , Str "down"
+    , Space
+    , Str "by"
+    , Space
+    , Str "a"
+    , Space
+    , Str "level"
+    ]
+, Para
+    [ Str "A"
+    , Space
+    , Str "handout"
+    , Space
+    , Str "nests"
+    , Space
+    , Str "its"
+    , Space
+    , Str "chapters,"
+    , Space
+    , Str "so"
+    , Space
+    , Str "what"
+    , Space
+    , Str "is"
+    , Space
+    , Str "a"
+    , Space
+    , Str "slide"
+    , Space
+    , Str "in"
+    , Space
+    , Str "the"
+    , Space
+    , Str "deck"
+    , Space
+    , Str "sits"
+    , Space
+    , Str "one"
+    , Space
+    , Str "or"
+    , Space
+    , Str "more"
+    , SoftBreak
+    , Str "levels"
+    , Space
+    , Str "deeper"
+    , Space
+    , Str "here."
+    , Space
+    , Str "That"
+    , Space
+    , Str "is"
+    , Space
+    , Str "ordinary"
+    , Space
+    , Str "structure,"
+    , Space
+    , Str "not"
+    , Space
+    , Str "a"
+    , Space
+    , Str "misplaced"
+    , Space
+    , Code ( "" , [] , [] ) "duration"
+    , Str ":"
+    , SoftBreak
+    , Str "the"
+    , Space
+    , Str "filter"
+    , Space
+    , Str "takes"
+    , Space
+    , Str "the"
+    , Space
+    , Str "attribute"
+    , Space
+    , Str "off"
+    , Space
+    , Str "and"
+    , Space
+    , Str "adds"
+    , Space
+    , Str "no"
+    , Space
+    , Str "notes."
+    ]
+]
+--- stderr

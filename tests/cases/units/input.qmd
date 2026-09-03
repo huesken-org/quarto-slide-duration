@@ -1,0 +1,21 @@
+---
+title: Units
+---
+
+## No unit means minutes {duration="90"}
+
+## Minutes {duration="20min"}
+
+## Minutes, short {duration="20m"}
+
+## Hours and minutes {duration="1h30"}
+
+## Hours {duration="2h"}
+
+## Hours, long {duration="1hour"}
+
+## Seconds {duration="45s"}
+
+## Seconds, long {duration="90sec"}
+
+## Whitespace and capitals {duration="1H 30MIN"}

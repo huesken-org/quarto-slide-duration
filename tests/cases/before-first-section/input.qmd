@@ -1,0 +1,13 @@
+---
+title: Title slides up front
+---
+
+## Welcome
+
+Slides before the first `duration` heading get no line.
+
+## Agenda
+
+## Here we go {duration="15min"}
+
+## And on

@@ -1,0 +1,64 @@
+--- exit 0
+--- stdout
+[ Header
+    2
+    ( "with-its-own-note" , [] , [] )
+    [ Str "With"
+    , Space
+    , Str "its"
+    , Space
+    , Str "own"
+    , Space
+    , Str "note"
+    ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:10:00/0:10:00 \183 0:10:00/0:10:00" ]
+    ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Para
+        [ Str "The"
+        , Space
+        , Str "handwritten"
+        , Space
+        , Str "note"
+        , Space
+        , Str "stays,"
+        , Space
+        , Str "the"
+        , Space
+        , Str "timing"
+        , Space
+        , Str "line"
+        , Space
+        , Str "goes"
+        , Space
+        , Str "in"
+        , Space
+        , Str "front"
+        , Space
+        , Str "of"
+        , Space
+        , Str "it."
+        ]
+    ]
+, Header
+    2
+    ( "without-its-own-note" , [] , [] )
+    [ Str "Without"
+    , Space
+    , Str "its"
+    , Space
+    , Str "own"
+    , Space
+    , Str "note"
+    ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:05:00/0:10:00 \183 0:05:00/0:10:00" ]
+    ]
+]
+--- stderr
+slide-duration: 1 section, 0:10:00 planned
+   1.  0:10:00    2 slides  With its own note

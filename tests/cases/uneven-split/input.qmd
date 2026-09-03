@@ -1,0 +1,20 @@
+---
+title: Uneven split
+---
+
+## Sixty seconds over seven slides {duration="1min"}
+
+60/7 is 8.571s per slide, so the remaining time carries a fraction and gets
+snapped to the nearest whole second.
+
+## Two
+
+## Three
+
+## Four
+
+## Five
+
+## Six
+
+## Seven

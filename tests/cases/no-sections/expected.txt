@@ -1,0 +1,43 @@
+--- exit 0
+--- stdout
+[ Header
+    1
+    ( "first-slide" , [] , [] )
+    [ Str "First" , Space , Str "slide" ]
+, Para
+    [ Str "No"
+    , Space
+    , Code ( "" , [] , [] ) "duration"
+    , Space
+    , Str "anywhere"
+    , Space
+    , Str "\8212"
+    , Space
+    , Str "the"
+    , Space
+    , Str "filter"
+    , Space
+    , Str "leaves"
+    , Space
+    , Str "the"
+    , Space
+    , Str "document"
+    , Space
+    , Str "alone."
+    ]
+, Header
+    2
+    ( "second-slide" , [] , [] )
+    [ Str "Second" , Space , Str "slide" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Para
+        [ Str "A"
+        , Space
+        , Str "handwritten"
+        , Space
+        , Str "note."
+        ]
+    ]
+]
+--- stderr

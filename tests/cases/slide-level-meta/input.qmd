@@ -1,0 +1,12 @@
+---
+title: Slide level from metadata
+slide-level: 1
+---
+
+# Chapter {duration="10min"}
+
+## Not a slide here
+
+With `slide-level: 1` only the level 1 headings break a slide.
+
+# Next chapter {duration="10min"}

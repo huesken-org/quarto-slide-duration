@@ -1,0 +1,5 @@
+---
+title: Retired unit
+---
+
+## std used to mean hours, and no longer does {duration="1std"}

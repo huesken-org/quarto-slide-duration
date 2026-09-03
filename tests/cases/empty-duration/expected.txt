@@ -1,0 +1,12 @@
+--- exit 1
+--- stdout
+--- stderr
+
+=== slide-duration: cannot read duration ===
+  File     : TESTS/cases/empty-duration/input.qmd
+  Heading  : Nothing given
+  duration : 
+
+  Expected a number plus a unit, repeatable:
+  `20min`, `90` (minutes when the unit is left off), `1h30`, `2h`, `45s`.
+

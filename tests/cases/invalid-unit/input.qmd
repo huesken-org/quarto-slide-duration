@@ -1,0 +1,5 @@
+---
+title: Unknown unit
+---
+
+## Days are not a unit {duration="2d"}

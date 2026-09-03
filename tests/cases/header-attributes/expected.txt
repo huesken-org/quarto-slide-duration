@@ -1,0 +1,44 @@
+--- exit 0
+--- stdout
+[ Header
+    2
+    ( "slide-one"
+    , [ "smaller" ]
+    , [ ( "background-color" , "black" ) ]
+    )
+    [ Str "With" , Space , Str "attributes" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:10:00/0:10:00 \183 0:10:00/0:10:00" ]
+    ]
+, Para
+    [ Str "Only"
+    , Space
+    , Code ( "" , [] , [] ) "duration"
+    , Space
+    , Str "disappears;"
+    , Space
+    , Str "id,"
+    , Space
+    , Str "classes"
+    , Space
+    , Str "and"
+    , Space
+    , Str "other"
+    , Space
+    , Str "attributes"
+    , Space
+    , Str "stay."
+    ]
+, Header
+    2
+    ( "without-attributes" , [] , [] )
+    [ Str "Without" , Space , Str "attributes" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:05:00/0:10:00 \183 0:05:00/0:10:00" ]
+    ]
+]
+--- stderr
+slide-duration: 1 section, 0:10:00 planned
+   1.  0:10:00    2 slides  With attributes

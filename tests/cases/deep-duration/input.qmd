@@ -1,0 +1,9 @@
+---
+title: Deep duration
+---
+
+## Section {duration="10min"}
+
+### Not a slide {duration="5min"}
+
+A `duration` below `slide-level` has no slide to start at.

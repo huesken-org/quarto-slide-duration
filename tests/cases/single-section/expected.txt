@@ -1,0 +1,59 @@
+--- exit 0
+--- stdout
+[ Header
+    2
+    ( "slices-and-arrays" , [] , [] )
+    [ Str "Slices" , Space , Str "and" , Space , Str "Arrays" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:20:00/0:20:00 \183 0:20:00/0:20:00" ]
+    ]
+, Para
+    [ Str "Four"
+    , Space
+    , Str "slides"
+    , Space
+    , Str "share"
+    , Space
+    , Str "20"
+    , Space
+    , Str "minutes,"
+    , Space
+    , Str "so"
+    , Space
+    , Str "5"
+    , Space
+    , Str "minutes"
+    , Space
+    , Str "per"
+    , Space
+    , Str "slide."
+    ]
+, Header
+    2
+    ( "second-slide" , [] , [] )
+    [ Str "Second" , Space , Str "slide" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:15:00/0:20:00 \183 0:15:00/0:20:00" ]
+    ]
+, Header
+    2
+    ( "third-slide" , [] , [] )
+    [ Str "Third" , Space , Str "slide" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:10:00/0:20:00 \183 0:10:00/0:20:00" ]
+    ]
+, Header
+    2
+    ( "fourth-slide" , [] , [] )
+    [ Str "Fourth" , Space , Str "slide" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:05:00/0:20:00 \183 0:05:00/0:20:00" ]
+    ]
+]
+--- stderr
+slide-duration: 1 section, 0:20:00 planned
+   1.  0:20:00    4 slides  Slices and Arrays

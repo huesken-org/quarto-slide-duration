@@ -1,0 +1,41 @@
+--- exit 0
+--- stdout
+[ Header 2 ( "basics" , [] , [] ) [ Str "Basics" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:30:00/0:30:00 \183 1:30:00/1:30:00" ]
+    ]
+, Header
+    2
+    ( "basics-part-2" , [] , [] )
+    [ Str "Basics," , Space , Str "part" , Space , Str "2" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:15:00/0:30:00 \183 1:15:00/1:30:00" ]
+    ]
+, Header 2 ( "advanced" , [] , [] ) [ Str "Advanced" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 1:00:00/1:00:00 \183 1:00:00/1:30:00" ]
+    ]
+, Header
+    2
+    ( "advanced-part-2" , [] , [] )
+    [ Str "Advanced," , Space , Str "part" , Space , Str "2" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:40:00/1:00:00 \183 0:40:00/1:30:00" ]
+    ]
+, Header
+    2
+    ( "advanced-part-3" , [] , [] )
+    [ Str "Advanced," , Space , Str "part" , Space , Str "3" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:20:00/1:00:00 \183 0:20:00/1:30:00" ]
+    ]
+]
+--- stderr
+slide-duration: 2 sections, 1:30:00 planned
+   1.  0:30:00    2 slides  Basics
+   2.  1:00:00    3 slides  Advanced

@@ -1,0 +1,41 @@
+--- exit 0
+--- stdout
+[ Header 2 ( "welcome" , [] , [] ) [ Str "Welcome" ]
+, Para
+    [ Str "Slides"
+    , Space
+    , Str "before"
+    , Space
+    , Str "the"
+    , Space
+    , Str "first"
+    , Space
+    , Code ( "" , [] , [] ) "duration"
+    , Space
+    , Str "heading"
+    , Space
+    , Str "get"
+    , Space
+    , Str "no"
+    , Space
+    , Str "line."
+    ]
+, Header 2 ( "agenda" , [] , [] ) [ Str "Agenda" ]
+, Header
+    2
+    ( "here-we-go" , [] , [] )
+    [ Str "Here" , Space , Str "we" , Space , Str "go" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:15:00/0:15:00 \183 0:15:00/0:15:00" ]
+    ]
+, Header
+    2 ( "and-on" , [] , [] ) [ Str "And" , Space , Str "on" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:07:30/0:15:00 \183 0:07:30/0:15:00" ]
+    ]
+]
+--- stderr
+slide-duration: 1 section, 0:15:00 planned
+   1.  0:15:00    2 slides  Here we go

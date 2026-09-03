@@ -1,0 +1,8 @@
+---
+title: No slides on the website
+---
+
+## Section {duration="10min"}
+
+Same on the website: no schedule, no notes, and `duration` gone from the
+heading — the note would be dropped by the `notes` filter anyway.

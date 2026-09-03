@@ -1,0 +1,79 @@
+--- exit 0
+--- stdout
+[ Header 1 ( "chapter" , [] , [] ) [ Str "Chapter" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:10:00/0:10:00 \183 0:20:00/0:20:00" ]
+    ]
+, Header 2 ( "subsection" , [] , [] ) [ Str "Subsection" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:05:00/0:10:00 \183 0:15:00/0:20:00" ]
+    ]
+, Header
+    3
+    ( "deeper-still" , [] , [] )
+    [ Str "Deeper" , Space , Str "still" ]
+, Para
+    [ Str "Only"
+    , Space
+    , Str "headings"
+    , Space
+    , Str "that"
+    , Space
+    , Str "break"
+    , Space
+    , Str "a"
+    , Space
+    , Str "slide"
+    , Space
+    , Str "count"
+    , Space
+    , Str "\8212"
+    , Space
+    , Code ( "" , [] , [] ) "slide-level"
+    , Space
+    , Str "(2"
+    , Space
+    , Str "by"
+    , Space
+    , Str "default)"
+    , Space
+    , Str "and"
+    , SoftBreak
+    , Str "shallower."
+    , Space
+    , Str "This"
+    , Space
+    , Str "one"
+    , Space
+    , Str "renders"
+    , Space
+    , Str "inside"
+    , Space
+    , Str "the"
+    , Space
+    , Str "slide"
+    , Space
+    , Str "above"
+    , Space
+    , Str "it."
+    ]
+, Header
+    1
+    ( "next-chapter" , [] , [] )
+    [ Str "Next" , Space , Str "chapter" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:10:00/0:10:00 \183 0:10:00/0:20:00" ]
+    ]
+, Header 2 ( "subsection-1" , [] , [] ) [ Str "Subsection" ]
+, Div
+    ( "" , [ "notes" ] , [] )
+    [ Plain [ Str "\9201 0:05:00/0:10:00 \183 0:05:00/0:20:00" ]
+    ]
+]
+--- stderr
+slide-duration: 2 sections, 0:20:00 planned
+   1.  0:10:00    2 slides  Chapter
+   2.  0:10:00    2 slides  Next chapter

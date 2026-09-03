@@ -1,0 +1,11 @@
+---
+title: Existing notes
+---
+
+## With its own note {duration="10min"}
+
+::: notes
+The handwritten note stays, the timing line goes in front of it.
+:::
+
+## Without its own note
